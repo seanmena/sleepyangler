@@ -1,0 +1,25 @@
+.hero {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bkg-img {
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.big-logo {
+    align-self: center;
+    transform: scale(1.3);
+    width: 75%;
+    position: absolute;
+}
+
+img {
+    align-self: center;
+}

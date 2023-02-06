@@ -1,0 +1,21 @@
+.nav {
+    margin: none;
+    background-color: #fff2da;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+
+.nav-item {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 1%;
+    align-self:center;
+}
+
+.nav-link, a:visited, a:link{
+    text-decoration: none;
+    color: black;
+}
