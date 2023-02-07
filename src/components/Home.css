@@ -34,3 +34,14 @@
 img {
     align-self: center;
 }
+
+.card-hero {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.img-card {
+    max-width: 90%;
+}

@@ -1,22 +1,38 @@
 .nav {
+    height: 80px;
     margin: none;
     background-color: whitesmoke;
-    height: 75px;
     display: flex;
-    justify-content: flex-end;
     list-style-type: none;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .nav-item {
     font-size: 1.35rem;
-    text-decoration: none;
     padding: 1%;
-    align-self:center;
-    padding-right: 2.5%;
+    align-self: center;
 }
+
+.nav-link a:hover {
+    cursor: pointer;
+}
+
 
 .nav-link, a:visited, a:link{
     text-decoration: none;
     color: #0d2618;
+}
+
+.nav-logo  {
+    max-width: 60px;
+    max-width: 60px;
+    padding: 5%;
+    display: flex;
+}
+
+.nav-img {
+    max-width: 100%;
+    text-align: left;
 }
