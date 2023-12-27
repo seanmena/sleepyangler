@@ -1,15 +1,17 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
+// import TestApi from "./components/TestApi";
+import Editor from "./components/Editor";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      {/* <Route path="editor" element={<TestApi />} /> */}
+      <Route path="editor" element={<Editor />} />
+    </Routes>
   );
 }
 

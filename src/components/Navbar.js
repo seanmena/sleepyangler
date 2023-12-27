@@ -17,11 +17,8 @@ export default function Navbar() {
           <li className="nav-item">
             <a href="/">HOME</a>
           </li>
-          <li className="nav-item">
-            <a href="/">CONTACT</a>
-          </li>
           <li className="nav-item nav-end">
-            <a href="/">SLEEPY</a>
+            <a href="/Footer">CONTACT</a>
           </li>
         </ul>
       </nav>

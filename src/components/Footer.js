@@ -7,7 +7,6 @@ export default function Footer() {
       <footer>
         <div className="contact">
           <h1 className="contact-title">CONTACT</h1>
-          <break></break>
           <p className="email">filler@filler.com</p>
         </div>
         <div className="social">
