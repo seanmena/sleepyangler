@@ -1,13 +1,7 @@
-html{
-    max-width: 1500px;
+html {
+    background-image: url("./assets/texture.png");
     margin: 0 auto;
-    font-family: "proxima-nova", sans-serif;
-    font-weight: 350;
-    font-style: normal;
-    background-color: whitesmoke;
-}
-
-body {
-    margin: 0;
-    padding: 0;
+    padding-left: 1.5%;
+    color: #332517;
+    font-family: seravek;
 }

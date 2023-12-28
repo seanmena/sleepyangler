@@ -1,17 +1,17 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-// import TestApi from "./components/TestApi";
-import Editor from "./components/Editor";
+import NavBar from "./components/NavBar";
+import Contact from "./screens/Contact";
+import Gallery from "./screens/Gallery";
+import Home from "./screens/Home";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      {/* <Route path="editor" element={<TestApi />} /> */}
-      <Route path="editor" element={<Editor />} />
-    </Routes>
+    <div className="App">
+      <NavBar />
+      <Home />
+      <Gallery />
+      <Contact />
+    </div>
   );
 }
 

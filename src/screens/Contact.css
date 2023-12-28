@@ -1,0 +1,48 @@
+.cont {
+    background-color: #332517;
+    border-radius: 15px;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto ;
+}
+
+.contact-container {
+    margin: 0 auto ;
+    display: block;
+    text-align: center;
+}
+
+.con-title {
+    font-size: 4.5em;
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 4%;
+}
+
+.inp {
+    background-color: #FFF5E9;
+    width: 75%;
+    margin: 1%;
+    font-size: 1.5em;
+    padding: 3%;
+}
+
+.top {
+    margin-top: 10%;
+}
+
+.message {
+    padding-bottom: 15%;
+}
+
+.btn {
+    padding: 3%;
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: #FFF5E9;
+    color: #332517;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    font-weight: 900;
+}

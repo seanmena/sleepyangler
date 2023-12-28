@@ -1,0 +1,17 @@
+.gallery-img {    
+    padding: 15%;
+    padding-bottom: 0;
+    width: 75%;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto ;
+}
+
+.thumbs {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
