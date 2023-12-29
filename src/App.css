@@ -1,7 +1,12 @@
 html {
     background-image: url("./assets/texture.png");
     margin: 0 auto;
-    padding-left: 1.5%;
     color: #332517;
     font-family: seravek;
+    max-width: 1400px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .6;
 }

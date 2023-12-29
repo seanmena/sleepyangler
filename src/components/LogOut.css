@@ -1,0 +1,10 @@
+.logout-btn {
+    font-size: 15px;
+    float: left;
+}
+
+.logout-btn:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+

@@ -1,13 +1,14 @@
-.gallery-img {    
-    padding: 15%;
-    padding-bottom: 0;
-    width: 75%;
+.gallery-img { 
+    max-height: 50vw;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .gallery-container {
     display: flex;
     justify-content: center;
     margin: 0 auto ;
+    padding-bottom: 10%;
 }
 
 .thumbs {
@@ -15,3 +16,26 @@
     justify-content: center;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 700px) {
+    .gallery-img {
+        max-height: 300px;
+    }
+    .thumbs {
+        display: none;
+    }
+}
+
+.img-del {
+    float: left;
+    font-size: 30px;
+    z-index: 10000;
+    margin-top: 2%;
+}
+
+.img-del:hover {
+    cursor: pointer;
+    font-size: 30px;
+    z-index: 10000;
+}
+
