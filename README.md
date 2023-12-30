@@ -8,5 +8,5 @@ I built this website for my brother who is a fly fish guide. I used React.js, CS
 
 # Design in Figma
 I created the ui in Figma, I used Adobe Photoshop to manipulate assets to be compatabile with the website. Here's a photos of different designs I made:
-(https://github.com/seanmena/sleepyangler/blob/assets/screenshot.png)
+![Designs]((https://github.com/seanmena/sleepyangler/blob/src/assets/screenshot.png)
 
