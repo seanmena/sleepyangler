@@ -3,6 +3,10 @@
 Live Link (for now)
 https://sleepy-angler.firebaseapp.com/
 
+# WATCH LIVE DEMO:
+Live demo as admin account is used in real time and I cannot provide the details for that.
+https://youtu.be/uIvjJZ4A66c
+
 # Description
 I built this website for my brother who is a fly fish guide. I used React.js, CSS, and Firebase. It has an auth system to verify the admin user. The Admin user may create/delete blog posts, upload/delete photos to a gallery, and manage contact form submissions. There are many protected routes that appear only if you are a specified user. Regular users may browse the gallery and blog. As well as submit a contact form to get booking details. 
 
