@@ -1,5 +1,6 @@
 .logo {
     max-width: 30%;
+    width: 1400px;
     justify-self: center;
     padding-top: 10%;
     padding-bottom: 2%;
@@ -7,6 +8,7 @@
 }
 
 .slpa {
+    width: 1500px;
     max-width: 90%;
     justify-self: center;
     z-index: 2;
@@ -22,10 +24,12 @@
 }
 
 .circle {
+    width: 700px;
     position: absolute;
-    justify-self: center;
+    transform: translate(48%);
     width: 50%;
     max-width: 700px;
     z-index: 0;
+    margin: 0 auto;
 }
 

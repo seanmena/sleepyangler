@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import LogOut from "./LogOut";
 import "./NavBar.css";
 import { useUserAuth } from "./UserAuthContext";
+import { ReactComponent as Hamburger } from "../assets/icons/hamburger.svg";
+import { ReactComponent as X } from "../assets/icons/x.svg";
 
 const NavBar = () => {
   const { user } = useUserAuth();
@@ -18,14 +20,11 @@ const NavBar = () => {
             className={click ? "hide-me" : "hamburger"}
             onClick={handleClick}
           >
-            <div className="burger burger1" />
-            <div className="burger burger2" />
-            <div className="burger burger3" />
+            <Hamburger />
           </div>
 
           <div className={click ? "x-p" : "hide-me"} onClick={handleClick}>
-            <div className="x x1" />
-            <div className="x x2" />
+            <X />
           </div>
 
           <div id="nav-box" className={click ? "nav-menu active " : "navbar"}>
@@ -59,14 +58,11 @@ const NavBar = () => {
     <div>
       <div className="nav-hero">
         <div className={click ? "hide-me" : "hamburger"} onClick={handleClick}>
-          <div className="burger burger1" />
-          <div className="burger burger2" />
-          <div className="burger burger3" />
+          <Hamburger />
         </div>
 
         <div className={click ? "x-p" : "hide-me"} onClick={handleClick}>
-          <div className="x x1" />
-          <div className="x x2" />
+          <X />
         </div>
 
         <div id="nav-box" className={click ? "nav-menu active " : "navbar"}>

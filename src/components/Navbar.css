@@ -1,5 +1,5 @@
 .navbar{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
     height: 80px;
@@ -31,68 +31,11 @@ a {
 }
 
 
-
-
-
 /* line  */
-
-
-
-
-
-
-.hamburger {
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-    z-index: 999;
-    float: right;
-    padding-bottom: 5%;
+.x-p{
+    display: none;
 }
 
-.burger {
-    width: 2rem;
-    height: 0.25rem;
-    border-radius: 10px;
-    background-color: black;
-    transform-origin: 1px;
-}
-
-.x-p{   
-    z-index: 1000;
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-    z-index: 1000;
-    float: right;
-    padding-bottom: 5%;
-}
-
-.x{
-    z-index: 1000;
-    transform: scale(1.5);
-    width: 1.5rem;
-    height: 0.20rem;
-    border-radius: 10px;
-    background-color: black;
-    transform-origin: 1px;
-}
-
-.x1{
-    transform: rotate(48deg);
-}
-
-.x2{
-    transform: rotate(-48deg);
-}
-
-.x-p:hover{
-    cursor: pointer;
-}
 
 .hamburger {
     display: none;
@@ -118,17 +61,32 @@ a {
         display: none;
     }
 
-    .nav-menu.active {
-        margin: 0 auto;
-        right: 0;
-        z-index: 998;
-        width: 70%;
-        height: 100%;
+    .nav-menu {
         position: absolute;
-        transition: all 0.5s ease;
-        background: gray; 
+        z-index: 1000;
+        top: 0;
+        right: 0;
+        top: 60px;
+        background-color: #FFF2D9;
+        width: 0px;
+        height: 100vh;
+        transition: all 0.3s ease-in;
+        overflow: hidden;
     }
 
+    .nav-menu.active {
+        width: 300px;
+    }
+
+    .x-p{
+        display: block;
+        float: right;
+        padding-top: 1%;
+    }
+
+    .x-p :hover{
+        cursor: pointer;
+    }
 
     .nav-menu li {
         text-align: left;
@@ -156,16 +114,8 @@ a {
 
 
     .hamburger {
-        margin-right: 1%;
-        width: 2rem;
-        height: 2rem;
-        display: flex;
-        justify-content: space-around;
-        flex-flow: column nowrap;
-        z-index: 999;
+        display: block;
         float: right;
-        padding-bottom: 5%;
-        display: flex;
     }
 
     .hamburger:hover {
