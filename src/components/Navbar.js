@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import LogOut from "./LogOut";
-import "./NavBar.css";
+import "./Navbar.css";
 import { useUserAuth } from "./UserAuthContext";
 import { ReactComponent as Hamburger } from "../assets/icons/hamburger.svg";
 import { ReactComponent as X } from "../assets/icons/x.svg";

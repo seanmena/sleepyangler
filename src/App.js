@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router";
 import "./App.css";
 import Read from "./components/blogs/Read";
 import Editor from "./components/Editor";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 import SignIn from "./components/SignIn";
 // import SignUp from "./components/SignUp";
 import { UserAuthContextProvider } from "./components/UserAuthContext";

@@ -11,9 +11,9 @@ const Home = () => {
   return (
     <div>
       <div className="container">
-        <img className="circle" src={circle} alt="circle" />
-        <img className="logo" src={logo} alt="logo" />
-        <img className="slpa" src={slpa} alt="slpa" />
+        <img className="circle" src={circle} alt="circle" loading="lazy" />
+        <img className="logo" src={logo} alt="logo" loading="lazy" />
+        <img className="slpa" src={slpa} alt="slpa" loading="lazy" />
       </div>
       <Gallery />
       <Contact />
