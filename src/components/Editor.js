@@ -15,19 +15,27 @@ const Editor = () => {
   console.log(josh);
 
   const deleteConctact = async (id) => {
-    const contDoc = doc(db, "Contact", id);
-    await deleteDoc(contDoc);
-    alert("deleted contact");
+    try {
+      const contDoc = doc(db, "Contact", id);
+      await deleteDoc(contDoc);
+      alert("deleted contact");
+    } catch (e) {
+      console.error("Error deleting", e);
+    }
   };
 
   const [imageUpload = { files: [] }, setImageUpload] = useState(null);
 
   const uploadImage = () => {
-    if (imageUpload == null) return;
-    const imageRef = ref(storage, `images/${imageUpload.name + v4()}`);
-    uploadBytes(imageRef, imageUpload).then((snapshot) => {
-      alert("uploaded");
-    });
+    try {
+      if (imageUpload == null) return;
+      const imageRef = ref(storage, `images/${imageUpload.name + v4()}`);
+      uploadBytes(imageRef, imageUpload).then((snapshot) => {
+        alert("uploaded");
+      });
+    } catch (e) {
+      console.log("Error deleting", e);
+    }
   };
 
   const [contacts, setContacts] = useState([]);
